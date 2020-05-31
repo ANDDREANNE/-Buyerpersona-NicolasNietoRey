@@ -1,0 +1,331 @@
+*{box-sizing: border-box;}
+body {background: #292929;margin: 0; font-family: 'Roboto', sans-serif;color: white}
+img {height: auto;}
+
+/*GLOBALES*/
+	/*BOTONES-CONFIGURACIONES GENERALES*/
+		:root{
+		  --orange: #F68803;
+		  --white: white;
+		  --black: black;
+		  --red: #F68803;}
+
+		*{font-family: 'Gotham', sans-serif;}
+		body{margin: 0;}
+		.bg-dark{
+		  background-color: rgb(48, 51, 59);
+		  background-image: -webkit-radial-gradient(center , circle cover, rgb(57, 59, 69) 0%, rgb(45, 48, 56) 70%);
+		  min-height: calc(100vh - 30px);
+		  margin: 0;}
+
+		.btn-container{
+		  padding-top:;
+		  display: flex;
+		  align-items: right;
+		  justify-content: right;
+		  flex-direction:row;}
+
+     	
+		.btn-item
+		.btn-ghost{
+		  position: relative;
+		  display: inline-block;
+		  border: 2px solid var(--white);
+		  padding: 0px 0px;
+		  color: var(--black);
+		  font-weight: 0PX;
+		  text-transform: uppercase;
+		  text-decoration: none;
+		  background: var(--white);
+		  transition: color 0.5s, background 0.5s;
+		  margin-left: 10px;
+		  margin-bottom: 0px;
+		  margin-top: 10PX;
+		  font-size: 30PX;
+		  min-width: 250px;
+		  text-align: center;}
+
+				.btn-ghost.round{
+				  border-radius: 200px;
+				}
+
+				.btn-ghost.secundary{
+				  background-color: transparent;
+				  color: var(--white);
+				}
+
+				.btn-ghost:hover{
+				  color: var(--white);
+				  background-color: transparent;
+				}
+
+				.btn-ghost.secundary:hover{
+				  color: var(--black);
+				  background-color: var(--white);
+				}
+
+				.btn-ghost:active{
+				  box-shadow: inset 0 0 20px var(--white);
+				}
+
+				.btn-ghost.secundary:active{
+				  box-shadow: inset 0 0 20px var(--black);
+				}
+		/*ORANGE*/
+				.btn-ghost.orange{
+				  background-color: var(--orange);
+				  border-color: var(--orange);
+				  color: var(--white);
+				}
+
+				.btn-ghost.secundary.orange{
+				  background-color: transparent;
+				  color: var(--orange);
+				}
+
+				.btn-ghost.orange:hover{
+				  background-color: transparent;
+				  color: var(--orange);
+				}
+
+				.btn-ghost.secundary.orange:hover{
+				  background-color: var(--orange);
+				  color: var(--white);
+				}
+
+				.btn-ghost.orange:active{
+				  box-shadow: inset 0 0 20px var(--orange);
+				}
+
+				.btn-ghost.secundary.orange:active{
+				  box-shadow: inset 0 0 20px var(--white);
+				}
+
+
+/*TEXTOS*/
+
+	h1 {size: 120px; color: white }
+	h2 {size: 120px: ;color: #F68803}
+	h3 {size: 30px}
+	h4 {size: 50px;color: #F68803}
+	p{color: white; size: 20px;}
+	a{color: white; size: 20px; text-decoration: none;}
+	a:hover{background:white; text-decoration: none; }
+	a:hover{background:none; text-decoration: none; }
+
+/*BARRA DE NAV*/
+
+	.encabezado{width: 100%}
+	.barraprincipal{width: 100%; background: #1E1E1E;
+	display: flex;align-items: center; justify-content: space-between;
+	flex-wrap: wrap; box-shadow: 1px 1px 12px rgba(242,134,2,.5)}
+	.logo{;margin:10px;}
+	
+	
+    
+
+    	/** BOTONES DE LA BARRA DE NAV */
+
+			.btn-ghost.red{
+
+			background-color: var(--red);
+			border-color: var(--orange);
+			color: var(--white);
+			height: 100px;
+			width: 100px;
+			margin-left: 10px;
+			margin-right: 20px;
+			margin-bottom: 5px;
+			margin-top: 10px;
+			font-size: 11PX;
+			padding-top: 35px;
+			min-width: 90px;
+			text-align: center;
+			;
+			}
+
+				.btn-ghost.secundary.red{
+				  background-color: grey;
+				  color: var(--red);
+				}
+
+				.btn-ghost.red:hover{
+				  background-color: transparent;
+				  color: var(--red);
+				}
+
+				.btn-ghost.secundary.red:hover{
+				  background-color: var(--grey);
+				  color: var(--white);
+				}
+
+				.btn-ghost.red:active{
+				  box-shadow: inset 0 0 20px var(--red);
+				}
+
+				.btn-ghost.secundary.red:active{
+				  box-shadow: inset 0 0 20px var(--white);
+				}
+
+/*SECCIÓN 1*/
+			
+			/*TEXTO E IMAGENES*/
+			
+			.homecontenido{
+			margin-left:0;
+			margin-top:;
+			width:300px;
+			background-color: none;
+			font-size: auto;
+			}
+
+			.fotoland {position:relative;
+			margin-bottom: 50px;
+			margin-top: 50px;
+			bottom: auto;
+			flex-wrap: wrap;
+			float: right;
+
+			}
+
+			.redeslogos {position: relative;
+					display: inline-flex;
+					margin-left: 10px;
+
+
+			}
+
+
+/*SECCION 2*/
+
+		/* SLIDER */
+		.slider{float: right;
+			margin-left:;
+			margin-top: 250px;
+			width:auto;
+			height: auto; }
+
+/*FOOTER*/
+	
+
+	.footer{
+
+	background: #1E1E1E; }
+
+
+
+	.blog1{
+		margin: 30px 80px;
+
+
+	}
+
+	.redes1{
+	width: 15PX;
+	height: 15PX;
+	position: relative;
+	display: inline-flex;
+	margin-left: 30px
+
+	}
+
+	.textoinferior {
+
+		margin-left: 10px;
+		font-size: 10px;
+	}
+
+
+
+/*Contactame*/
+
+.experiencias{
+	width: 100%;
+	height: auto;
+}
+
+.imagentesoro{float: right;
+
+
+}
+
+
+
+
+
+
+
+
+
+/*blog*/
+
+.seccionblog{background:#F68803;
+	width: 345px;
+	margin-top: 800px;
+	display: flex;align-items: center;
+
+	
+	padding-top: 0px;
+
+}
+
+
+
+
+
+
+
+
+.contactame{align-items: center;
+
+
+
+}
+
+.barralateral{ background: #F68803;
+	
+	height: 1100px;
+	width: auto;
+	padding: 5px 5px 0px 9px;
+
+
+
+}
+
+.list-group{color: white;
+	background: #F68803
+
+
+
+
+
+
+}
+
+
+.card { background:#1E1E1E;width: 90%;
+	
+
+
+
+}
+
+
+.list-group-item { background: #F68803; 
+	width: 200px;
+
+
+
+}
+
+.active { background: none;
+	color: white;
+
+
+
+
+
+}
+
+
+}
